@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "GDG New Delhi's Web Developers Day",
   "main": "index.js",
-  "scripts": {
+  "scripts":{
+	  "nodemon": "^1.18.10",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": { "node": ">=9.3.0" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gdgnewdelhi/web-dev-day.git"
